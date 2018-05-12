@@ -1,4 +1,4 @@
-.title {
+.navbar {
 color: black;
 display: flex;
 align-content: flex-start;
@@ -6,15 +6,28 @@ justify-content: space-evenly;
 border-style: outset; 
 border-color: red; 
 border-width: 9px;
-background-color: gray;
-font-size: 3px;
+background-color:#787d82!important;
+font-size: 20px;
 }
 .main-headers { 
-display: flex;
+/* display: flex; */
 background-color: gray;
-height: 100vh;
+border: steelblue;
+border-style: outset;
+border-width: 9px; 
+height: 100vh; 
 width: 100%;
 border-style: inset;
 justify-content: space-around;
-flex-grow: unset;
+} 
+img {
+height:300px;
+width:500px;
+}
+.main-articles {
+    /* display: flex; */
+}
+.header {
+    display: flex;
+    justify-content: space-around;
 }
