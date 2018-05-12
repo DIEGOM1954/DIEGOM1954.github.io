@@ -11,13 +11,10 @@ font-size: 3px;
 }
 .main-headers { 
 display: flex;
-justify-content: space-between;
 background-color: gray;
 height: 100vh;
 width: 100%;
 border-style: inset;
-flex-wrap: wrap;
-}
-.main-articles {
-
+justify-content: space-around;
+flex-grow: unset;
 }
