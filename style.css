@@ -23,11 +23,20 @@ justify-content: space-around;
 img {
 height:300px;
 width:500px;
+display: flex;
+justify-content:center;
+
 }
 .main-articles {
-    /* display: flex; */
+ display: flex; 
+ justify-content: center;
+ justify-content: flex-start;
 }
 .header {
     display: flex;
     justify-content: space-around;
+}
+.captions {
+    display: flex;
+    justify-content: center;
 }
