@@ -30,8 +30,7 @@ justify-content:center;
 .main-articles {
  display: flex; 
  justify-content: center;
- justify-content: flex-start;
- justify-content: space-around;
+ justify-content: space-evenly;
 }
 .header {
     display: flex;
@@ -39,5 +38,10 @@ justify-content:center;
 }
 .captions {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+.paragraphs {
+    display: flex;
+    justify-content: flex-end;
 }
